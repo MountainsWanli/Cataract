@@ -27,16 +27,16 @@ Cataract/
 视频生成：基于分割结果生成处理后的视频（createVidebysam2.py）
 环境依赖
 建议使用 Python 3.8+，核心依赖如下（需手动安装）：
-# 基础依赖
+## 基础依赖
 pip install torch torchvision opencv-python numpy pandas
 
-# BLIP 相关依赖
+## BLIP 相关依赖
 pip install transformers datasets pillow
 
-# Yolo11 依赖
+## Yolo11 依赖
 pip install ultralytics
 
-# Sam2 依赖（参考官方安装指南）
+## Sam2 依赖（参考官方安装指南）
 pip install segment-anything-2
 
 使用流程
